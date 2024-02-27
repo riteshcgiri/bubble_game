@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Bubble Game</title>
+
+</head>
+<body>
+    <!-- we are gonna learn event bubbling in this game -->
+    
+    <div id="main">
+        <div class="start-game">
+            <h1>Hit the Number</h1>
+            <div class="play">
+                <i class="ri-play-line"></i>
+            </div>
+        </div>
+        <div id="panel">
+            <div id="pTop">
+                <div class="box">
+                    <h4>Hit</h4>
+                    <div class="inner-box" id="hitVal">5</div>
+                </div>
+                <div class="box">
+                    <h4>Timer</h4>
+                    <div class="inner-box" id="timer">60</div>
+                </div>
+                <div class="box">
+                    <h4>Score</h4>
+                    <div class="inner-box" id="score">0</div>
+                </div>
+                
+            </div>
+            <div id="pBtm">
+                <!-- <div class="bubble">5</div>  -->
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
